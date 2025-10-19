@@ -4,7 +4,7 @@ Detect Fire Harmful Gases And Smoke Using MQ 2 Sensor And Glow The Led, Off Th
 
 
 
-
+#code
 
     #include <Servo.h>
 
