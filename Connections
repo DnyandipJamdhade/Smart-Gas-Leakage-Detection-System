@@ -1,0 +1,23 @@
+| Device               | Module Pin          | Arduino/Other Connection      |
+| -------------------- | ------------------- | ----------------------------- |
+| MQ‑2 Sensor          | VCC                 | Arduino 5V                    |
+| MQ‑2 Sensor          | GND                 | Arduino GND                   |
+| MQ‑2 Sensor          | AO                  | Arduino A0                    |
+| MQ‑2 Sensor          | DO (optional)       | Arduino digital pin (if used) |
+| Red LED              | Anode (+) via 220Ω  | Arduino digital (D9)          |
+| Red LED              | Cathode (–)         | Arduino GND                   |
+| Green LED (optional) | Anode (+) via 220Ω  | Arduino digital (D10)         |
+| Green LED            | Cathode (–)         | Arduino GND                   |
+| Buzzer               | + terminal          | Arduino digital (D8)          |
+| Buzzer               | – terminal          | Arduino GND                   |
+| Relay Module         | VCC                 | Arduino 5V                    |
+| Relay Module         | GND                 | Arduino GND                   |
+| Relay Module         | IN1 (for fan)       | Arduino digital (e.g., D6)    |
+| Relay Module         | IN2 (for regulator) | Arduino digital (e.g., D7)    |
+| Relay Module         | COM (fan)           | Power supply line → COM       |
+| Relay Module         | NO (fan)            | Fan input line                |
+| Relay Module         | COM (regulator)     | Power supply line → COM       |
+| Relay Module         | NO (regulator)      | Regulator input line          |
+| Servo (if used)      | Signal              | Arduino digital (e.g., D9)    |
+| Servo (if used)      | VCC                 | 5 V supply (check servo spec) |
+| Servo (if used)      | GND                 | Arduino GND                   |
